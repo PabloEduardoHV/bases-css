@@ -1,0 +1,28 @@
+.flex-container, .box-container, .box-container-wrap, .box-container-justify, .box-container-align {
+  display: flex;
+}
+.flex-item {
+  background: #6f3;
+  margin: 1px;
+}
+.box-item {
+  background: #6f3;
+  height: 120px;
+  margin: 5px;
+  width: 120px;
+}
+.box-container {
+  flex-direction: column;
+}
+.box-container-wrap, .box-container-justify, .box-container-align {
+  flex-wrap: wrap;
+}
+.box-container-justify, .box-container-align {
+  justify-content: space-evenly;
+}
+.box-container-align {
+  align-content: center;
+  border: 1px solid #000;
+  height: 400px;
+  width: 400px;
+}
